@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.0.RELEASE</version>
+        <version>2.0.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -23,9 +23,11 @@
         <module>spring-cloud-example-config</module>
         <module>spring-cloud-example-client-01</module>
         <module>spring-cloud-example-client-02</module>
-        <module>spring-cloud-example-client-feign</module>
+        <module>spring-cloud-example-feign</module>
         <module>spring-cloud-example-hystrix</module>
         <module>spring-cloud-example-turbine</module>
+        <module>spring-cloud-example-gateway</module>
+        <module>spring-cloud-example-apollo</module>
     </modules>
 
     <properties>
@@ -69,17 +71,17 @@
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>spring-cloud-example-eureka</artifactId>
-                <version>${project.artifactId}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>spring-cloud-example-config</artifactId>
-                <version>${project.artifactId}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>spring-cloud-example-client-01</artifactId>
-                <version>${project.artifactId}</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
