@@ -1,8 +1,6 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
-mvnw
-mvnw.cmd
-.mvn
+
 ### STS ###
 .apt_generated
 .classpath
@@ -25,5 +23,3 @@ mvnw.cmd
 /dist/
 /nbdist/
 /.nb-gradle/
-
-.DS_Store
