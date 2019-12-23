@@ -91,6 +91,7 @@
             <!--
                 maven version 管理插件： mvn version:set -DnewVersion=0.0.2-SNAPSHOT
                 https://blog.csdn.net/ggbomb2/article/details/78316068
+				插件版本管理
             -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
