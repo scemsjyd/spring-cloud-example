@@ -1,0 +1,16 @@
+server:
+  port: 8070
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:8077
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -28,6 +28,9 @@
         <module>spring-cloud-example-turbine</module>
         <module>spring-cloud-example-gateway</module>
         <module>spring-cloud-example-apollo</module>
+        <module>spring-cloud-example-nacos-config</module>
+        <module>spring-cloud-example-nacos-discovery-provider</module>
+        <module>spring-cloud-example-nacos-discovery-cosumer</module>
     </modules>
 
     <properties>
@@ -42,6 +45,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -1,6 +1,11 @@
 spring:
   application:
     name: spring-cloud-example-client-01
+
+  boot:
+    admin:
+      client:
+        url: 127.0.0.1:8077
 eureka:
   client:
     service-url:
@@ -12,3 +17,8 @@ management:
     web:
       exposure:
         include: "*"
+      base-path: /monitor
+  endpoint:
+    shutdown:
+      enabled: true
+
