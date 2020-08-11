@@ -1,10 +1,10 @@
-package com.scemsjyd.springcloudexample.admin;
+package com.scemsjyd.springboot.example.admin.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AdminApplicationTests {
+class SpringBootExampleAdminClientApplicationTests {
 
     @Test
     void contextLoads() {
